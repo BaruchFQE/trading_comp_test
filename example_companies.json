@@ -1,0 +1,100 @@
+{
+    "companies": [
+        {
+            "company_profile": {
+                "name": "Mantra Wellness Solutions",
+                "ticker": "LZNC",
+                "industry": "Logistics Technology",
+                "description": "Provides AI-driven fleet management and logistics automation tools",
+                "fiscal_year_end": "December 31"
+            },
+            "financial_statements": {
+                "period": "2023",
+                "currency": "USD",
+                "income_statement": {
+                    "revenue": 15524252,
+                    "cost_of_goods_sold": 8019408,
+                    "gross_profit": 7504844,
+                    "operating_expenses": {
+                        "r_and_d": 2552685,
+                        "sales_and_marketing": 1288695,
+                        "general_and_administrative": 873778,
+                        "net_income": 2789686
+                    }
+                },
+                "balance_sheet": {
+                    "assets": {
+                        "current_assets": {
+                            "cash_and_equivalents": 1039219,
+                            "accounts_receivable": 1121141,
+                            "inventory": 823581
+                        },
+                        "non_current_assets": {
+                            "property_plant_equipment": 5322539,
+                            "intangible_assets": 735419
+                        },
+                        "total_assets": 9041899
+                    },
+                    "liabilities_and_equity": {
+                        "total_liabilities": 3575342,
+                        "total_shareholders_equity": 5466557
+                    }
+                },
+                "cash_flow": {
+                    "operating_activities": 2521614,
+                    "investing_activities": -646853,
+                    "financing_activities": -256790,
+                    "net_cash_flow": 1617971
+                }
+            }
+        },
+        {
+            "company_profile": {
+                "name": "Nimbus Labs",
+                "ticker": "RNVD",
+                "industry": "Robotics",
+                "description": "Designs autonomous robotic systems for industrial automation",
+                "fiscal_year_end": "December 31"
+            },
+            "financial_statements": {
+                "period": "2023",
+                "currency": "USD",
+                "income_statement": {
+                    "revenue": 9515725,
+                    "cost_of_goods_sold": 3421446,
+                    "gross_profit": 6094279,
+                    "operating_expenses": {
+                        "r_and_d": 1085762,
+                        "sales_and_marketing": 1124005,
+                        "general_and_administrative": 698840,
+                        "net_income": 3185672
+                    }
+                },
+                "balance_sheet": {
+                    "assets": {
+                        "current_assets": {
+                            "cash_and_equivalents": 2452268,
+                            "accounts_receivable": 920998,
+                            "inventory": 1000882
+                        },
+                        "non_current_assets": {
+                            "property_plant_equipment": 3071364,
+                            "intangible_assets": 1664612
+                        },
+                        "total_assets": 9110124
+                    },
+                    "liabilities_and_equity": {
+                        "total_liabilities": 3490218,
+                        "total_shareholders_equity": 5619906
+                    }
+                },
+                "cash_flow": {
+                    "operating_activities": 2868117,
+                    "investing_activities": -2379533,
+                    "financing_activities": -289692,
+                    "net_cash_flow": 198892
+                }
+            }
+        }
+    ]
+}
