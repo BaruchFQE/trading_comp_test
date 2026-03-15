@@ -1,4 +1,4 @@
-# Coding Assessment: Market Order Trade Tape
+# Coding Assessment: Financial Statement Data
 
 _Spring 2026 - Trading Competition, FQE_
 
@@ -8,11 +8,40 @@ Use of artificial intelligence to completely generate code for the the competiti
 
 ## Introduction
 
-The goal for this coding assessment is to get your hands on a post market order book trade tape and to make sure that if you are admitted into the competition that you will be productive with your time. This assessment should take at most 3 - 5 hours.
+The goal for this coding assessment is to get your hands on experience with financial statement data and to make sure that if you are admitted into the competition that you will be productive with your time. This assessment should take at most 3 - 5 hours. Some more about financial statements:
 
-[Explain what is going on]
+Financial statements are formal records that provide a structured summary of an entity's financial activities and position. They serve as a "report card" for stakeholders—such as investors, creditors, and management—to evaluate performance and health.
 
-This assessment will gague your familiarity with Python and Github. Furthermore, it will give you a very basic working undetanding of market order books.
+1. The Balance Sheet
+   This provides a snapshot of a financial position at a specific point in time. It follows the fundamental accounting equation:
+   $$\text{Assets} = \text{Liabilities} + \text{Equity}$$
+
+- Assets: What is owned (cash, inventory, property).
+
+- Liabilities: What is owed (debt, accounts payable).
+
+- Equity: The "net worth" or the amount belonging to shareholders after all debts are paid.
+
+2. The Income Statement
+   Also known as the Profit and Loss (P&L) statement, this measures performance over a specific period (e.g., a quarter or a year).
+
+- Revenue: Total money generated from sales.
+
+- Expenses: Costs incurred to generate that revenue.
+
+- Net Income: The "bottom line"—what remains after subtracting expenses, interest, and taxes from revenue.
+
+3. The Cash Flow Statement
+   This tracks the actual movement of cash in and out during a period. It is vital because "profit" on an income statement does not always equal "cash in the bank." It is usually broken into three categories:
+
+- Operating Activities: Cash from core business functions.
+
+- Investing Activities: Cash used for buying or selling assets (like equipment).
+
+- Financing Activities: Cash from borrowing money, repaying debt, or issuing stock.
+
+4. The Statement of Retained Earnings (Not to be used in this assessment but goot to know)
+   This document bridges the income statement and the balance sheet. It shows how much profit was kept (reinvested) in the entity versus how much was paid out as dividends.
 
 ## System & Environment Requirements
 
