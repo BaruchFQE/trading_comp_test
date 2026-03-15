@@ -77,71 +77,71 @@ class Company:
 
 The required _company profile_ attributes are:
 
-1. Name: `name`
+1. str: `name`
    - The full legal name of the company. Used to uniquely identify the firm in reports, filings, and financial datasets.
-2. Ticker: `ticker`
+2. str: `ticker`
    - The stock symbol used to represent the company on an exchange. Traders and data systems reference securities using this identifier.
-3. Industry: `industry`
+3. str: `industry`
    - The sector or business category the company operates in. This is important for peer comparisons, valuation multiples, and sector analysis.
-4. Description: `description`
-   - A brief overview of the company’s primary products, services, and business model.
-5. Fiscal Year End: `fiscal_year_end`
+4. str: `description`
+   - A brief overview of the company's primary products, services, and business model.
+5. str: `fiscal_year_end`
    - The date on which the company closes its accounting books for the year. Financial statements are reported relative to this fiscal period.
-6. Period: `period`
+6. str: `period`
    - The fiscal reporting period the financial statements correspond to.
 
 The required _income statement_ attributes are:
 
-1. Revenue: `revenue`
-   - Total income generated from the company’s core operations before any expenses are deducted.
-2. COGS: `cost_of_goods_sold`
+1. float: `revenue`
+   - Total income generated from the company's core operations before any expenses are deducted.
+2. float: `cost_of_goods_sold`
    - The direct costs associated with producing goods or delivering services (materials, manufacturing, labor).
-3. Gross Profit: `gross_profit`
+3. float: `gross_profit`
    - Revenue minus cost of goods sold, measures profitability from core production before operating expenses.
-4. R&D: `r_and_d`
+4. float: `r_and_d`
    - Research and development expenses used to create new products, technologies, or improvements, an operating expense.
-5. Sales & Marketing: `sales_and_marketing`
+5. float: `sales_and_marketing`
    - Costs associated with promoting products, acquiring customers, and maintaining sales teams, an operating expense.
-6. SG&A: `general_and_administrative`
+6. float: `general_and_administrative`
    - Corporate overhead expenses such as executive salaries, HR, legal, accounting, and office operations, an operating expense.
-7. Net Income: `net_income`
-   - The company’s total profit after all expenses have been deducted from revenue, often referred to as the bottom line.
+7. float: `net_income`
+   - The company's total profit after all expenses have been deducted from revenue, often referred to as the bottom line.
 
 Note: Income statement record the earnings and expenses of a company from one period of time to another.
 
 The required _balance sheet_ attributes are:
 <u>Assets</u>
 
-1. Cash & Equivalents: `cash_and_equivalents`
+1. float: `cash_and_equivalents`
    - Liquid funds such as cash, bank deposits, and short-term investments, a current asset.
-2. Accounts Recievable: `accounts_receivable`
+2. float: `accounts_receivable`
    - Money owed to the company by customers for goods or services delivered on credit, a current asset.
-3. Inventory: `inventory`
+3. float: `inventory`
    - Physical goods held for sale or production, a current asset.
-4. Property Plant & Equipement: `property_plant_equipment`
+4. float: `property_plant_equipment`
    - Physical operational assets such as factories, equipment, land, and buildings, a non-current asset.
-5. Intangible Assets: `intangible_assets`
+5. float: `intangible_assets`
    - Non-physical assets like patents, trademarks, proprietary software, and intellectual property, a non-current asset.
-6. Total Assets: `total_assets`
+6. float: `total_assets`
    - The sum of all current and non-current assets owned by the company.
 
 Note: **Assets** are resources owned by the company that have economic value; **Current Assets** are assets expected to be converted into cash or used within one year; **Non-Current Assets** are long-term assets that provide economic value over multiple years.
 
 <u>Liabilities & Equity</u>
 
-7. Total Liabilities: `total_liabilities`
-   - The company’s financial obligations, including debt, loans, and accounts payable.
-8. Total Shareholders Equity: `total_shareholders_equity`
+7. float: `total_liabilities`
+   - The company's financial obligations, including debt, loans, and accounts payable.
+8. float: `total_shareholders_equity`
    - The residual ownership value of the company after liabilities are subtracted from assets, often referred to as book value.
 
 Note: **Liabilities** are financial obligation or debt that a company owes to another party, which is expected to be settled in the future through the transfer of assets or services; **Equity** are the net amount of funds invested in a business by its owners, plus any retained earnings
 
-_The balance sheet represents the company’s financial position at a specific point in time._
+_The balance sheet represents the company's financial position at a specific point in time._
 
 The required _cash flow statement_ attributes are:
 
 1. Cash from Operations:
-   - Cash generated from the company’s core business operations.
+   - Cash generated from the company's core business operations.
 2. Cash from Investing:
    - Cash spent on or received from long-term investments such as equipment purchases or asset sales.
 3. Cash from Financing:
